@@ -2,7 +2,6 @@ require 'sinatra'
 
 set :environment, :production
 set :public_folder, File.expand_path('public', File.dirname(__FILE__))
-# Checks on static files before dispatching calls
 enable :static
 
 get "/" do

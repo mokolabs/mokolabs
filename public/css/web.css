@@ -1,0 +1,24 @@
+
+/* Customize primary content background and nav colors */
+
+#nav #web {
+	background: url('/images/skin/cloud_blue.png');
+	font-weight: bold;
+	padding: 5px 0 0 1px;
+	width: 64px;
+	height: 25px;
+	}
+
+#primary {
+	background: url('/images/skin/back_blue.gif') no-repeat #05041A;
+	}
+
+/* Sidebar */
+
+#freelance {
+	line-height: 18px;
+	}
+
+#freelance span {
+	margin-right: 8px;
+	}

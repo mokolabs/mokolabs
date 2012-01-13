@@ -1,0 +1,34 @@
+
+#nav #photo {
+	background: url('/images/skin/cloud_green.png');
+	font-weight: bold;
+	padding: 5px 0 0 1px;
+	width: 64px;
+	height: 25px;
+	}
+
+#primary {
+	background: url('/images/skin/back_green.gif') no-repeat #051505;
+	}
+
+#primary img {
+	margin: 0 15px 15px 0;
+	}
+
+#flickr {
+	}
+
+#primary #flickr img {
+	float: left;
+	margin: 5px 17px 5px 0;
+	border: 10px solid #222;
+	}
+
+#flickr p {
+	padding-top: 12px;
+	}
+
+#recent {
+	border-top: 1px solid #333;
+	padding-top: 24px;
+	}

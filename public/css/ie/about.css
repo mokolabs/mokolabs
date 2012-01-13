@@ -1,0 +1,12 @@
+
+#about {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/about_white_full.png', sizingMethod='scale');
+	color: #3594a8;
+	}
+
+#about:hover {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/about_white_full.png', sizingMethod='scale');
+	color: #3594a8;
+	}

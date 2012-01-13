@@ -1,0 +1,115 @@
+
+/* Restore hover on li elements */
+body {
+	behavior:url('/css/ie/csshover.htc');
+	}
+
+
+/* Content */
+
+#primary, #secondary {
+	padding-top: 20px;
+	}
+
+#primary .bottom {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/bottom_primary.png', sizingMethod='scale');
+	}
+
+#secondary .bottom {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/bottom_secondary.png', sizingMethod='scale');
+	}
+
+#secondary a.more {
+	display: inline;
+	padding: 2px;
+	margin: -5px 0 0 0px;
+	}
+
+
+/* Navigation */
+
+#nav {
+	margin-top: 30px;
+	}
+
+#nav li {
+	cursor: pointer;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/cloud.png', sizingMethod='scale');
+	}
+
+#about {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/about_blue.png', sizingMethod='scale');
+	font-weight: normal;
+	padding-left: 15px;
+	color: #fff;
+	}
+
+#about:hover {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/about_white.png', sizingMethod='scale');
+	color: #fff;
+	}
+
+#film {
+	margin-top: 0;
+	}
+
+#film:hover {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/cloud_red.png', sizingMethod='scale');
+	}
+
+#photo {
+	margin-top: 55px;
+	}
+
+#photo:hover {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/cloud_green.png', sizingMethod='scale');
+	}
+
+#web {
+	margin-top: 20px;
+	}
+
+#web:hover {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/cloud_blue.png', sizingMethod='scale');
+	}
+
+
+/* About page */
+
+#me {
+	margin-top: 0;
+	}
+
+#aim {
+	margin-bottom: -5px;
+	}
+
+
+/* Comments */
+
+#comments {
+	padding-left: 0;
+	margin-left: 0;
+	}
+
+
+/* Snapshots */
+
+.snapshot {
+	height: 220px;
+	}
+
+
+/* Footer */
+
+#footer {
+	margin-top: 10px;
+	}

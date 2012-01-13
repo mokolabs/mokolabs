@@ -1,0 +1,5 @@
+
+#nav #photo {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/skin/cloud_green.png', sizingMethod='scale');
+	}

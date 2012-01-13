@@ -1,0 +1,28 @@
+
+/* Customize primary content background and nav colors */
+
+#nav #film {
+	background: url('/images/skin/cloud_red.png');
+	font-weight: bold;
+	padding: 5px 0 0 1px;
+	width: 64px;
+	height: 25px;
+	}
+
+#primary {
+	background: url('/images/skin/back_red.gif') no-repeat #150500;
+	}
+	
+#primary p a {
+  color: #fff;
+  border-color: #fff;
+  }
+
+
+/* Sidebar */
+
+#netflix_stats {
+	font-size: 11px;
+	color: #555;
+	}
+	

@@ -1,0 +1,61 @@
+
+/* Customize primary content background and nav colors */
+
+#about {
+	background: url('/images/skin/about_white_full.png');
+	padding-left: 9px;
+	padding-right: 1px;
+	font-weight: bold;
+	color: #3594a8;
+	}
+
+#about:hover {
+	background: url('/images/skin/about_white_full.png');
+	color: #3594a8;
+	}
+
+#primary {
+	background: url('/images/skin/back_white.gif') no-repeat #a2a2a2;
+	color: #000;
+	}
+
+#primary ul li a,
+#primary p a {
+	}
+
+
+/* Sidebar */
+
+#me {
+	margin-top: 20px;
+	border: 10px solid #333;
+	}
+
+#home {
+	line-height: 18px;
+	}
+
+#home span {
+	margin-right: 8px;
+	}
+
+#upcoming {
+	margin: 0;
+	margin-top: -6px;
+	list-style: none;
+	}
+
+.hide, .type, .adr, .org {
+	display: none;
+	}
+
+#aim {
+	margin-bottom: -1px;
+	}
+
+#download .button:hover {
+	background: #333;
+	text-decoration: none;
+	color: #fff;
+	}
+

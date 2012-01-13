@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>img{ height: 100px; float: left; }</style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<style>
+
+body {
+  font-family: Helvetica;
+}
+
+#images .image {
+  background: #555;
+  border: 2px solid #555;
+  display: inline;
+  float: left;
+  margin: 12px;
+  text-align: center;
+  width: 240px;
+}
+
+#images img {
+  display: block;
+  height: 160px;
+  margin-bottom: 6px;
+  width: 240px;
+}
+
+#images p {
+  color: #fff;
+  margin: 0 0 3px 0;
+}
+
+</style>
+<body>
+	<div id="images">
+  </div>
+
+<script>
+$.getJSON("http://mokolabs.com/api/photos.js",
+  function(data){
+    $.each(data.photos, function(i,item){
+      image = $("<img/>").attr("src", item.photo).appendTo("#images").wrap('<div class="image"></div>');
+      image.parent().append('<p class="caption">' + item.caption  + '</p>')
+      if ( i == 5 ) return false;
+    });
+  });
+</script>
+</body>
+</html>

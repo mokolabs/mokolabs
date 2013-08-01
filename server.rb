@@ -13,6 +13,10 @@ get "/" do
   File.read(File.join(settings.public_folder, "/index.html"))
 end
 
+get "/feed/atom", :provides => ['atom'] do
+  redirect "/feed/atom.xml", 301
+end
+
 get "/feed/atom.xml", :provides => ['atom'] do
   response.headers['Cache-Control'] = 'public, max-age=300'
   File.read(File.join(settings.public_folder, "/feed/atom.xml"))

@@ -5,9 +5,9 @@
 	<title>moko.labs</title>
 	<subtitle>Just another WordPress weblog</subtitle>
 	<id>http://mokolabs.com/</id>
-	<link rel="self" type="application/atom+xml" href="http://mokolabs.com/feed/atom/"/>
+	<link rel="self" type="application/atom+xml" href="http://mokolabs.com/feed/atom.xml"/>
 	<link rel="alternate" type="text/html" href="http://mokolabs.com/"/>
-	<updated>2012-01-13T01:11:58Z</updated>
+	<updated>2008-03-02T01:47:00Z</updated>
 	<rights>Copyright 2008</rights>
 	<generator uri="http://wordpress.org/" version="2.0.3">WordPress</generator>
 	<author>
@@ -314,7 +314,7 @@ election, election day, mac, macintosh, vote, voted ]]>
 		<link rel="alternate" type="text/html" href="http://mokolabs.com/2006/09/28/new-york-post-20/"/>
 		<id>http://mokolabs.com/2006/09/28/new-york-post-20/</id>
 		<published>2006-09-28T12:20:34Z</published>
-		<updated>2012-01-13T01:11:10Z</updated>
+		<updated>2006-09-28T12:20:34Z</updated>
 		<category scheme="http://mokolabs.com/category/"
 		          term="default/"
 		          label="..."/>
@@ -424,7 +424,7 @@ Try playing Star Wars music or Vader [...] ]]>
 		<link rel="alternate" type="text/html" href="http://mokolabs.com/2006/09/08/the-rubyconf-express/"/>
 		<id>http://mokolabs.com/2006/09/08/the-rubyconf-express/</id>
 		<published>2006-09-08T19:58:39Z</published>
-		<updated>2012-01-13T01:09:13Z</updated>
+		<updated>2006-09-08T19:58:39Z</updated>
 		<category scheme="http://mokolabs.com/category/"
 		          term="default/"
 		          label="..."/>
@@ -689,7 +689,7 @@ Last Sunday, I went up to LA for the BSG Season 2 CD release party. Pretty cool 
 		<link rel="alternate" type="text/html" href="http://mokolabs.com/2006/06/01/welcome-back/"/>
 		<id>http://mokolabs.com/2006/06/01/welcome-back/</id>
 		<published>2006-06-01T17:18:31Z</published>
-		<updated>2012-01-13T01:11:58Z</updated>
+		<updated>2006-06-01T17:18:31Z</updated>
 		<category scheme="http://mokolabs.com/category/"
 		          term="default/"
 		          label="..."/>

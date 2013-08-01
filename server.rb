@@ -4,14 +4,18 @@ set :environment, :production
 set :public_folder, File.expand_path('public', File.dirname(__FILE__))
 enable :static
 
+before do
+  redirect request.url.sub(/www\./, ''), 301 if request.host =~ /^www/
+end
+
 get "/" do
   response.headers['Cache-Control'] = 'public, max-age=300'
   File.read(File.join(settings.public_folder, "/index.html"))
 end
 
-get "/feed/atom" do
+get "/feed/atom.xml", :provides => ['atom'] do
   response.headers['Cache-Control'] = 'public, max-age=300'
-  File.read(File.join(settings.public_folder, "/blog/feed/atom.xml"))
+  File.read(File.join(settings.public_folder, "/feed/atom.xml"))
 end
 
 get "/*" do

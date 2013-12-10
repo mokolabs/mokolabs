@@ -22,6 +22,10 @@ get "/feed/atom.xml", :provides => ['atom'] do
   File.read(File.join(settings.public_folder, "/feed/atom.xml"))
 end
 
+get "/wedding", :provides => ['atom'] do
+  redirect "http://weduary.com/mokolabswedding", 301
+end
+
 get "/*" do
   response.headers['Cache-Control'] = 'public, max-age=300'
   File.read(File.join(settings.public_folder, params[:splat][0] + "/index.html"))

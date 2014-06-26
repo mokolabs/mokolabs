@@ -1,13 +1,14 @@
-require 'sinatra'
-
+# CONFIG
 set :environment, :production
 set :public_folder, File.expand_path('public', File.dirname(__FILE__))
 enable :static
 
+# REDIRECT
 before do
   redirect request.url.sub(/www\./, ''), 301 if request.host =~ /^www/
 end
 
+# ROUTES
 get "/" do
   response.headers['Cache-Control'] = 'public, max-age=300'
   File.read(File.join(settings.public_folder, "/index.html"))

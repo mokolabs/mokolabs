@@ -2,5 +2,5 @@
 require 'sinatra'
 
 # APP
-require './server'
+require './app'
 run Sinatra::Application
